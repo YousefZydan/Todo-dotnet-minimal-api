@@ -17,7 +17,7 @@ spec:
       - name: api
         image: youssefzydan123/todo-dotnet-api:1.0     
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
         env:
         - name: ASPNETCORE_ENVIRONMENT
           value: Production
